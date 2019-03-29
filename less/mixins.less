@@ -1,1 +1,14 @@
 // Mixins Here
+
+.my-btn(@width: 100px, @radius: 5px) {
+    width: @width;
+    height: 30px;
+    border-radius: @radius;
+    background-color: @btn-bg-color;
+    color: @sea-shell;
+
+    &:hover {
+        background-color: @sea-shell;
+        color: @btn-bg-color;
+    }
+}
